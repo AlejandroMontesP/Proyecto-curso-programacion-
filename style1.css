@@ -1,0 +1,132 @@
+/* Colores */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.header {
+    background-color: #073b4c;
+}
+
+.nav a {
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #ff9100;
+}
+
+#bienvenido h2 {
+    color: #073b4c;
+}
+
+#temas h2 {
+    color: #2980b9;
+}
+
+#temas ul li a {
+    color: #073b4c;
+}
+
+#temas ul li a:hover {
+    color: #ff9100;
+}
+
+.footer {
+    background-color: #2980b9;
+}
+
+.footer p {
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #ff9100;
+}
+
+/* Tipografía */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+/* Diseño general */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav {
+    text-align: right;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+#bienvenido {
+    padding: 40px 20px;
+}
+
+#temas {
+    padding: 20px;
+}
+
+#temas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#temas ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+/* Efectos */
+.button {
+    background-color: #ff9100;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ff7800;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .nav {
+        text-align: center;
+    }
+
+    #temas ul li {
+        display: block;
+    }
+}
